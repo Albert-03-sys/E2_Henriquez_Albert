@@ -1,0 +1,153 @@
+{
+    "escaneos": [
+        {
+            "id": 1,
+            "host": "127.0.0.1",
+            "inicio": "2026-09-12 17:07:11",
+            "fin": "2026-09-12 17:07:11",
+            "puertos": [
+                {
+                    "numero": 22,
+                    "protocolo": "TCP",
+                    "abierto": true,
+                    "servicio": {
+                        "nombre": "SSH",
+                        "huella": "OpenSSH 8.2",
+                        "version": "8.2",
+                        "riesgo": "Medio"
+                    }
+                },
+                {
+                    "numero": 80,
+                    "protocolo": "TCP",
+                    "abierto": true,
+                    "servicio": {
+                        "nombre": "HTTP",
+                        "huella": "Apache/2.4",
+                        "version": "2.4",
+                        "riesgo": "Medio"
+                    }
+                },
+                {
+                    "numero": 443,
+                    "protocolo": "TCP",
+                    "abierto": true,
+                    "servicio": {
+                        "nombre": "Desconocido",
+                        "huella": "Unknown",
+                        "version": "1.0",
+                        "riesgo": "Bajo"
+                    }
+                },
+                {
+                    "numero": 3306,
+                    "protocolo": "TCP",
+                    "abierto": true,
+                    "servicio": {
+                        "nombre": "MySQL",
+                        "huella": "MySQL 5.7",
+                        "version": "5.7",
+                        "riesgo": "Alto"
+                    }
+                },
+                {
+                    "numero": 8080,
+                    "protocolo": "TCP",
+                    "abierto": false,
+                    "servicio": null
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "host": "scanme.nmap.org",
+            "inicio": "2026-09-12 17:18:52",
+            "fin": "2026-09-12 17:18:53",
+            "puertos": [
+                {
+                    "numero": 22,
+                    "protocolo": "TCP",
+                    "abierto": true,
+                    "servicio": {
+                        "nombre": "SSH",
+                        "huella": "OpenSSH 8.2",
+                        "version": "8.2",
+                        "riesgo": "Medio"
+                    }
+                },
+                {
+                    "numero": 80,
+                    "protocolo": "TCP",
+                    "abierto": true,
+                    "servicio": {
+                        "nombre": "HTTP",
+                        "huella": "Apache/2.4",
+                        "version": "2.4",
+                        "riesgo": "Medio"
+                    }
+                },
+                {
+                    "numero": 443,
+                    "protocolo": "TCP",
+                    "abierto": false,
+                    "servicio": null
+                },
+                {
+                    "numero": 3306,
+                    "protocolo": "TCP",
+                    "abierto": true,
+                    "servicio": {
+                        "nombre": "MySQL",
+                        "huella": "MySQL 5.7",
+                        "version": "5.7",
+                        "riesgo": "Alto"
+                    }
+                },
+                {
+                    "numero": 8080,
+                    "protocolo": "TCP",
+                    "abierto": true,
+                    "servicio": {
+                        "nombre": "Desconocido",
+                        "huella": "Unknown",
+                        "version": "1.0",
+                        "riesgo": "Bajo"
+                    }
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "host": "123212",
+            "inicio": "2026-09-12 17:19:54",
+            "fin": "2026-09-12 17:19:54",
+            "puertos": [
+                {
+                    "numero": 1,
+                    "protocolo": "TCP",
+                    "abierto": false,
+                    "servicio": null
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "host": "hola",
+            "inicio": "2026-09-12 17:21:19",
+            "fin": "2026-09-12 17:21:20",
+            "puertos": [
+                {
+                    "numero": 5,
+                    "protocolo": "TCP",
+                    "abierto": true,
+                    "servicio": {
+                        "nombre": "Desconocido",
+                        "huella": "Unknown",
+                        "version": "1.0",
+                        "riesgo": "Bajo"
+                    }
+                }
+            ]
+        }
+    ]
+}
